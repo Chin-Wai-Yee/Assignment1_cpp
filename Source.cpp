@@ -51,19 +51,19 @@ int main(void) {
 		if (y1 >= 0 && y2 >= 0) {
 			num_solution = 1;
 		}
-		if (y1 < 0 && y2 < 0) {
+		else if (y1 < 0 && y2 < 0) {
 			num_solution = 1;
 		}
-		if (y1 == 0 || y2 == 0) {
+		else if (y1 == 0 || y2 == 0) {
 			num_solution = 2;
 		}
-		if (y1 == 0 && y2 == 0) {
+		else if (y1 == 0 && y2 == 0) {
 			cout << "Precision error";
 		}
-		if (y1 >= 0 && y2 < 0) {
+		else if (y1 >= 0 && y2 < 0) {
 			num_solution = 3;
 		}
-		if (y1 < 0 && y2 >= 0) {
+		else if (y1 < 0 && y2 >= 0) {
 			num_solution = 3;
 		}
 	}
